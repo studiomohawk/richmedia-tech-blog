@@ -4,7 +4,9 @@
   "description": "A static blog for Rich Media build using harp.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "harp server .",
+    "build": "harp compile ."
   },
   "repository": {
     "type": "git",
