@@ -1,0 +1,12 @@
+language: node_js
+notifications:
+  email: false
+node_js:
+ - "0.10"
+env:
+  global:
+    - GIT_COMMITTER_NAME=studiomohawk
+    - GIT_COMMITTER_EMAIL=studiomohawk@gmail.com
+    - GIT_AUTHOR_NAME=studiomohawk
+    - GIT_AUTHOR_EMAIL=studiomohawk@gmail.com
+    - secure: "qW3Y5Yz8dztozVO/9+y6vmGoI6WRpJJeE8caqN36Zc3tlKXXQnnApdE1abEY52G8X/vLRt/YOn7ur7vr3ofcgzAiNFJeoeYmICr3kzXfmg8gwcdHAYW1ekYuPxFFmeuvPfCCcjyxleHhiZ0qvl1xKNwK3y4reltSV8MVSqKgAo8="

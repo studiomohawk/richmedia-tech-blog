@@ -18,7 +18,7 @@ module.exports = {
      |--------------------------------------------------------------------------
      | https://github.com/shakyShane/browser-sync/wiki/options#wiki-files
      */
-    files: [],
+    files: ['public/**/*.scss','public/**/*.js','public/**/*.ejs','public/**/*.md'],
 
     /*
      |--------------------------------------------------------------------------
@@ -42,7 +42,10 @@ module.exports = {
      |--------------------------------------------------------------------------
      | https://github.com/shakyShane/browser-sync/wiki/options#wiki-proxy
      */
-    proxy: false,
+    proxy: {
+      host: "localhost",
+      port: 9000
+    },
 
     /*
      |--------------------------------------------------------------------------
